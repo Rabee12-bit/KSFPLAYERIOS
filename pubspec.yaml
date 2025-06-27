@@ -1,0 +1,22 @@
+name: ksfplayerios
+description: KSF Player iOS - Flutter app for KSF audio files
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_secure_storage: ^9.2.4
+  file_picker: ^10.2.0
+  audio_service: ^0.18.18
+  just_audio: ^0.10.4
+  path_provider: ^2.1.5
+  rxdart: ^0.28.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
